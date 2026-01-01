@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "yourmodid",
+	"version": "${version}",
+	"name": "Your Mod Name",
+	"description": "Your mod description",
+	"authors": ["YourName"],
+	"contact": {
+		"sources": "https://github.com/ithurtz/magicx"
+	},
+	"license": "MIT",
+	"icon": "assets/magicx/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.github.ithurtz.magicx.magicX"],
+		"client": ["com.github.ithurtz.magicx.magicX"]
+	},
+	"mixins": ["magicx.mixins.json"],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
