@@ -1,0 +1,51 @@
+*.class
+*.log
+*.ctxt
+*.jar
+*.war
+*.ear
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# --- Build Directories ---
+# Default Gradle output
+.gradle/
+build/
+# Default Maven output
+target/
+# MATLAB Compiler SDK outputs (if used)
+magicsquare.jar
+getmagic.class
+
+# --- IDE Settings ---
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.project
+.classpath
+
+# VS Code
+.vscode/
+
+# --- System & OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Magic xpa / Special Integrations (if applicable) ---
+# Exclude runtime engine behaviors or local ini files
+Magic.ini
+*.pco
